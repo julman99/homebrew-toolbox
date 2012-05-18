@@ -1,10 +1,10 @@
 require 'formula'
 
 class Jesync < Formula
-  url 'https://github.com/downloads/julman99/JESync/JESync.zip'
+  url 'https://github.com/downloads/julman99/JESync/JESync-0.2.zip'
   homepage ''
-  md5 '311889628cb86a6222bfaae853b6ef17'
-  version '0.1'
+  md5 '05dc7bd2651aa958fde61ce1a748425e'
+  version '0.2'
 
   def install
 #    system 'echo "#!/bin/bash\njava -jar JESync.jar" > bin/jesync'
