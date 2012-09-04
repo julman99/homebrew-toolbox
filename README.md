@@ -2,7 +2,9 @@
 ###A set of cool tools for mac
 
 ##Installation
+```
 brew tap julman99/homebrew-toolbox
+```
 
 ##Formulas
 
