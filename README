@@ -1,5 +1,0 @@
-brew tap julman99/homebrew-jesync
-brew install jesync
-
-Then you can do
-jesync --help
