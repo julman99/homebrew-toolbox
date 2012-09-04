@@ -9,8 +9,8 @@ brew tap julman99/homebrew-toolbox
 ##Formulas
 
 ###eatmemory
-https://github.com/julman99/JESync
-A fast and portable lock/semaphore server written in Java
+https://github.com/julman99/eatmemory
+Simple C program to allocate memory
 ```
 brew install eatmemory
 eatmemory -?
