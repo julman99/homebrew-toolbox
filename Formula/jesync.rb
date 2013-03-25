@@ -1,17 +1,12 @@
 require 'formula'
 
 class Jesync < Formula
-  url 'https://github.com/downloads/julman99/JESync/JESync-0.4.zip'
+  url 'https://dl.dropbox.com/sh/7fzw435ffzge7lw/zHo3sJyP6e/JESync/JESync-0.6.zip?token_hash=AAFzhAkiUMNsV1EAupYJE_IS8k_s__2Yu--lUxqwzHQw4g&dl=1'
   homepage ''
-  md5 'cbeffd93d3728edddccbb2b3aea1973b'
-  version '0.4'
+  sha1 '013709faaaff2cd4e43c8eedad2ea0e318c12288'
+  version '0.6'
 
   def install
-#    system 'echo "#!/bin/bash\njava -jar JESync.jar" > bin/jesync'
-    (bin+'jesync').write <<-EOS.undent
-      #!/bin/sh
-      java -jar "#{prefix}/JESync.jar" "$@"
-    EOS
     prefix.install Dir['*']
   end
 end
