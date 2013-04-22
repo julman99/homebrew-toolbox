@@ -1,10 +1,10 @@
 require 'formula'
 
 class Jesync < Formula
-  url 'https://dl.dropboxusercontent.com/sh/7fzw435ffzge7lw/T_OFYrkgpl/JESync/jesync-0.7.zip'
+  url 'https://dl.dropboxusercontent.com/u/13722362/JESync/jesync-0.8.zip'
   homepage ''
-  sha1 '89313bf10d2f4a57ed1ff90542e61613480a9182'
-  version '0.7'
+  sha1 'e2d332d9748b95bc7a724b056fb1713a7f6d4137'
+  version '0.8'
 
   def install
     prefix.install Dir['*']
