@@ -1,9 +1,9 @@
 require 'formula'
 
 class Jesync < Formula
-  url 'https://dl.dropboxusercontent.com/u/13722362/JESync/jesync-0.8.zip'
+  url 'https://dl.dropboxusercontent.com/u/13722362/JESync/jesync-0.8.1.zip'
   homepage ''
-  sha1 'e2d332d9748b95bc7a724b056fb1713a7f6d4137'
+  sha1 '1de015c59d5e36ad580ff1785cdd43a4919ce3eb'
   version '0.8'
 
   def install
