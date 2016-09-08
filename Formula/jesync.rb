@@ -3,7 +3,7 @@ require 'formula'
 class Jesync < Formula
   url 'https://dl.dropboxusercontent.com/u/13722362/JESync/jesync-0.8.1.zip'
   homepage ''
-  sha1 '1de015c59d5e36ad580ff1785cdd43a4919ce3eb'
+  sha256 'c3a1e7a273789f16ee1fc28ae77467572383b5376f8ead123f6f09e40fd67b14'
   version '0.8.1'
 
   def install
