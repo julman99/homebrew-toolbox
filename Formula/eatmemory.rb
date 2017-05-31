@@ -1,13 +1,14 @@
-require 'formula'
-
 class Eatmemory < Formula
-  homepage 'https://github.com/julman99/eatmemory'
-  url 'https://github.com/julman99/eatmemory/tarball/v0.1.5'
-  version '0.1.5'
-  sha256 'f27e32d81562a50d2c1fff5be5cf431ba1958e2ffe42b5f2f08372f897e4c7d0'
+  desc "Simple C program to allocate memory from the command-line"
+  homepage "https://github.com/julman99/eatmemory"
+  url "https://github.com/julman99/eatmemory/archive/v0.1.6.tar.gz"
+  sha256 "5f49eadc5462cebb01afec02caa2729d9885e0f0a251399d1e8f62a726cc0a9e"
 
   def install
-  	system "mkdir", "#{prefix}/bin"
     system "make", "install", "PREFIX=#{prefix}"
+  end
+
+  test do
+    system "#{bin}/eatmemory", "-?"
   end
 end
