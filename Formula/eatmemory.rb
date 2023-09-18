@@ -1,8 +1,8 @@
 class Eatmemory < Formula
-  desc "Simple C program to allocate memory from the command-line"
-  homepage "https://github.com/julman99/eatmemory"
-  url "https://github.com/julman99/eatmemory/archive/v0.1.6.tar.gz"
-  sha256 "5f49eadc5462cebb01afec02caa2729d9885e0f0a251399d1e8f62a726cc0a9e"
+  homepage 'https://github.com/julman99/eatmemory'
+  url 'https://github.com/julman99/eatmemory/archive/refs/tags/v0.1.7.tar.gz'
+  version '0.1.7'
+  sha256 '93a3810024df8428165322d9289cf8dadf81540a181f104c151381507fb6977e'
 
   def install
     system "make", "install", "PREFIX=#{prefix}"
