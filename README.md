@@ -2,7 +2,7 @@
 ###A set of cool tools for mac
 
 ##Installation  
-Just tap this reposotory to your homebrew installation
+Just tap this repository to your homebrew installation
 
 ```
 brew tap julman99/homebrew-toolbox
